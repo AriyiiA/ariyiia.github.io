@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+body
+{
+    background: #434750;
+}
+
+/* HISTORYBACK */
+
+#back
+{
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: url('../assets/return-button.png');
+    height: 35px;
+    width: 50px;
+    background-position: center;
+    background-size: cover;
+    margin-left: 3px;
+
+}
+
+#back:hover
+{
+    cursor: pointer;
+}

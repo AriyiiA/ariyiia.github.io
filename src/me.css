@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+body
+{
+    background: #434750;
+}
+
+#title
+{
+    font-size: 1.6em;
+}
+
+p
+{
+    font-size: 1.5em;
+    padding: 10%;
+    color: #999;
+    font-weight: bold;
+    width: 100vw;
+}
+
+.profilebox
+{
+    width: 100vw;
+    margin-top: 5em;
+    margin-bottom: 2em;
+}
+
+img
+{
+    filter: none;
+    transition: 0.25s;
+}
+
+img:hover
+{
+    filter: brightness(20%);
+    cursor: crosshair;
+}
+
+.typewriterbox
+{
+    width: 100vw;
+}
+
+p #typewrite
+{
+    margin: 5%;
+}
+/* HISTORYBACK */
+
+#back
+{
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: url('../assets/return-button.png');
+    height: 35px;
+    width: 50px;
+    background-position: center;
+    background-size: cover;
+    margin-left: 3px;
+
+}
+
+#back:hover
+{
+    cursor: pointer;
+}
+
