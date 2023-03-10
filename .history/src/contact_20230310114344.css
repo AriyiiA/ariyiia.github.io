@@ -1,0 +1,24 @@
+.container
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px; 
+}
+.box1
+{
+    background-color: aqua;
+}
+.box2
+{
+    background-color: red;
+}
+.box3
+{
+    background-color: blueviolet;
+}
+.box4
+{
+    background-color: green;
+}

@@ -1,0 +1,63 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.container
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: 100vh;
+}
+.container a
+{
+    color: #cbd5e1;
+}
+.box1, .box2, .box3, .box4
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.box1
+{
+    background-color: #64748b;
+}
+.box2
+{
+    background-color: #475569;
+}
+.box3
+{
+    background-color: #334155;
+}
+.box4
+{
+    background-color: #1e293b;
+}
+
+.box1:hover, .box2:hover, .box3:hover, .box4:hover 
+{
+    color: #0284c7;
+    transition: background-color 2s ease-out 100ms
+}
+
+.fa-brands, .fa-solid
+{
+    font-size: 3em;
+    line-height: 2em;
+}
+
+h3
+{
+    line-height: 2em;
+}
+a
+{
+    text-decoration: none;
+}

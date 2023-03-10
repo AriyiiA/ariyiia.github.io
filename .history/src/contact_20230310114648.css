@@ -1,0 +1,42 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.container
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: 100vh;
+}
+.box1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #64748b;
+}
+.box2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+}
+.box3
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+}
+.box4
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+}
